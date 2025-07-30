@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Admin john = new Admin("John",2000,7,30);
+        Admin john = new Admin("John",2000,7,31);
 
         //test display info
 
@@ -12,6 +12,7 @@ public class Main {
         System.out.println("\n");
 
         System.out.println(john.isBirthday());
+        john.displayHappyBirthday();
 
     }
 }

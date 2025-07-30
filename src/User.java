@@ -50,4 +50,9 @@ public class User {
         System.out.println(name + ": " + dob);
     }
 
+    public void displayHappyBirthday() {
+        if(isBirthday())
+            System.out.println("Happy birthday " + this.name + "!");
+    }
+
 }
