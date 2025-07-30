@@ -27,6 +27,15 @@ public class User {
         return dob;
     }
 
+    public boolean isBirthday() {
+        if (LocalDate.now().getDayOfMonth() == dob.getDayOfMonth() //date is equal
+                && LocalDate.now().getMonth() == dob.getMonth() // month is equal
+        ) {
+            return true;
+        }
+        return false;
+    }
+
     //setter
 
     public void setName(String name) {
