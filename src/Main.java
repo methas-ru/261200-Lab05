@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        Admin john = new Admin("John",2000,7,31);
+        Admin john = new Admin("John",2000,7,30);
 
         //test display info
 
